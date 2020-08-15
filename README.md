@@ -1,7 +1,7 @@
 # Front-End-WebApp_Group-Indomie
 Tema: Aplikasi Web Toko Online;
 
-Desain: Full Stack;
+Desain: Front End;
 
 Owner: Kelompok Indomie-XI RPL 1;
 
