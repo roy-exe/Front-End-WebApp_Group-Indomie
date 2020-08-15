@@ -1,4 +1,4 @@
-# Full-Stack-WebApp_Group Indomie
+# Full-Stack-WebApp_Group-Indomie
 Tema: Aplikasi Web Toko Online;
 
 Desain: Full Stack;
