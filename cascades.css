@@ -1,0 +1,285 @@
+
+/* FONTS */
+/*#region*/
+@font-face {
+        font-family: A-Bod;
+        src: url("./Fonts/A-Bod.ttf") format("truetype");
+}
+@font-face {
+        font-family: Cyber;
+        src: url("./Fonts/Cyber.ttf") format("truetype");
+}
+@font-face {
+        font-family: Droid;
+        src: url("./Fonts/Droid.ttf") format("truetype");
+}
+@font-face {
+        font-family: Forte;
+        src: url("./Fonts/Forte.ttf") format("truetype");
+}
+@font-face {
+        font-family: Magma;
+        src: url("./Fonts/Magma.otf") format("opentype");
+}
+@font-face {
+        font-family: Naza;
+        src: url("./Fonts/Naza.ttf") format("truetype");
+}
+@font-face {
+        font-family: Nero;
+        src: url("./Fonts/Nero.otf") format("opentype");
+}
+@font-face {
+        font-family: O1;
+        src: url("./Fonts/O1.ttf") format("truetype");
+}
+@font-face {
+        font-family: Pro;
+        src: url("./Fonts/Pro.ttf") format("truetype");
+}
+@font-face {
+        font-family: Proto;
+        src: url("./Fonts/Proto.ttf") format("truetype");
+}
+@font-face {
+        font-family: Quant;
+        src: url("./Fonts/Quant.otf") format("opentype");
+}
+@font-face {
+        font-family: Rez;
+        src: url("./Fonts/Rez.ttf") format("truetype");
+}
+@font-face {
+        font-family: San-Franc;
+        src: url("./Fonts/San-Franc.otf") format("opentype");
+}
+@font-face {
+        font-family: Stereo;
+        src: url("./Fonts/Stereo.ttf") format("truetype");
+}
+@font-face {
+        font-family: Valor;
+        src: url("./Fonts/Valor.ttf") format("truetype");
+}
+@font-face {
+        font-family: Velocy;
+        src: url("./Fonts/Velocy.ttf") format("truetype");
+}
+@font-face {
+        font-family: Virgo;
+        src: url("./Fonts/Virgo.ttf") format("truetype");
+}
+@font-face {
+        font-family: Willy;
+        src: url("./Fonts/Willy.otf") format("opentype");
+}
+/*#endregion*/
+
+/* VARIABLES */
+:root {
+    --defPrimCol: #880000;
+    --defSecCol: var(--defRedCol);
+    --defTriCol: var(--secGrayCol);
+    --pitchRed: #ff0000;
+    --defRedCol: #ff5252;
+    --defOranCol: #c94725;
+    --defYlowCol: #ffca28;
+    --secFaceCol: #fce566;
+    --defGrinCol: #009688;
+    --defBlueCol: #42a5f5;
+    --defViolCol: #6d71c7;
+    --primGrayCol: #181818;
+    --secGrayCol: #252525;
+    --triGrayCol: #303030;
+    --transCol: #00000000;
+    --defBordRad: 10px;
+    --bigBordRad: 30px;
+    --perfBoxSide: 40px;
+    --fastTimer: 0.25s;
+    --medTimer: 0.5s;
+    --normTimer: 1s;
+    --longTimer: 3s;
+    --realTimer: 5s;
+	--menuSize: var(--perfBoxSide);
+}
+
+body {
+    background-color: var(--primGrayCol);
+    height: 2000px;
+    margin: 0;
+}
+
+/* SCROLLBAR */
+/*#region*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-corner {
+        background-color: var(--primGrayCol);
+}
+::-webkit-scrollbar-track {
+    background-color: #25252580;
+    transition: var(--normTimer);
+}
+::-webkit-scrollbar-track:vertical {
+        border-radius: var(--defBordRad) 0 0 var(--defBordRad);
+}
+::-webkit-scrollbar-track:horizontal {
+        border-radius: var(--defBordRad) var(--defBordRad) 0 0;
+}
+::-webkit-scrollbar-track:hover{
+    background-color: var(--triGrayCol);
+    transition: var(--normTimer);
+}
+::-webkit-scrollbar-track:active{
+    background-color: var(--secGrayCol);
+    transition: var(--fastTimer);
+}
+::-webkit-scrollbar-thumb {
+    background: #ff000080;
+    transition: var(--normTimer);
+}
+::-webkit-scrollbar-thumb:vertical {
+    border-radius: var(--defBordRad) 0 0 var(--defBordRad);
+}
+::-webkit-scrollbar-thumb:horizontal {
+        border-radius: var(--defBordRad) var(--defBordRad) 0 0 ;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--defSecCol);
+    transition: var(--normTimer);
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: var(--pitchRed);
+    transition: var(--fastTimer);
+}
+/* #endregion */
+
+/*  HEADER  */
+/*#region*/
+header#head {
+	display: flex;
+	vertical-align: middle;
+    background-color: var(--defTriCol);
+    width: 100%;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+    position: relative;
+}
+span#title{
+	display: flex;
+	background-color: var(--pitchRed);
+	font-family: San-Franc;
+	border-radius: 35px;
+	color: white;
+	width: 35%;
+	font-size: 48px;
+	height: 70px;
+	align-items: center;
+	line-height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+span#title img {
+	background-size: 75px;
+	width: 75px;
+	height: 75px;
+	float: left;
+	left: -5px;
+	position: relative;
+}
+/*#endregion*/
+
+nav#horNav {
+    background-color: var(--defTriCol);
+    width: 100%;
+    height: 100px;
+    border-bottom-right-radius: var(--bigBordRad);
+    top: 0px;
+    float: left;
+    position: sticky;
+}
+
+button#menu {
+	padding: 0;
+	background-color: var(--defPrimCol);
+	border: none;
+	border-top-right-radius: var(--defBordRad);
+	width: var(--menuSize);
+	height: var(--menuSize);
+	top: calc(100% - var(--menuSize));
+	position: relative;
+	float: left;
+}
+
+div#spaceTab {
+	background-color: var(--defTriCol);
+
+}
+
+nav#verNav {
+    background-color: var(--triGrayCol);
+    width: var(--menuSize);
+    height: 500px;
+    border-bottom-right-radius: var(--bigBordRad);
+    top: 100px;
+    float: left;
+    position: sticky;
+}
+
+main#main {
+    background-color: var(--primGrayCol);
+    width: calc(100% - var(--menuSize));
+    height: 1700px;
+    top: 0px;
+    float: left;
+    position: relative;
+    z-index: -1;
+}
+
+footer#foot {
+	display: flex;
+    background-color: var(--defTriCol);
+    width: 100%;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+    position: static;
+}
+
+span#credit {
+	font-family: San-Franc;
+	color: var(--primGrayCol);
+	width: 25%;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	vertical-align: middle;
+	position: static;
+}
+nav ul{
+        font-family: Arial, Helvetica, sans-serif;
+       padding-right: 0;
+       margin-right: 0; 
+}
+nav ul li{
+        display: inline-block;
+        line-height: 120px;
+        margin: 0 50px;
+        padding:0 50px;
+}
+nav ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+a:hover{
+        background: red;
+        transition: .5s;
+        color:black;
+}
