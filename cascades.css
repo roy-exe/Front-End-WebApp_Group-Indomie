@@ -161,12 +161,12 @@ body {
 header#head {
 	display: flex;
 	vertical-align: middle;
-    background-color: var(--defTriCol);
-    width: 100%;
+	background-color: var(--defTriCol);
+	width: 100%;
 	height: 100px;
 	align-items: center;
 	justify-content: center;
-    position: relative;
+	position: relative;
 }
 span#title{
 	display: flex;
@@ -175,7 +175,7 @@ span#title{
 	border-radius: 35px;
 	color: white;
 	width: 20%;
-	font-size: 48px;
+	font-size: 28px;
 	height: 70px;
 	align-items: center;
 	line-height: 70px;
@@ -194,13 +194,13 @@ span#title img {
 /*#endregion*/
 
 nav#horNav {
-    background-color: var(--defTriCol);
-    width: 100%;
-    height: 100px;
-    border-bottom-right-radius: var(--bigBordRad);
-    top: 0px;
-    float: left;
-    position: sticky;
+	background-color: var(--defTriCol);
+	width: 100%;
+	height: 100px;
+	border-bottom-right-radius: var(--bigBordRad);
+	top: 0px;
+	float: left;
+	position: sticky;
 }
 
 button#menu {
@@ -221,33 +221,33 @@ div#spaceTab {
 }
 
 nav#verNav {
-    background-color: var(--triGrayCol);
-    width: var(--menuSize);
-    height: 500px;
-    border-bottom-right-radius: var(--bigBordRad);
-    top: 100px;
-    float: left;
-    position: sticky;
+	background-color: var(--triGrayCol);
+	width: var(--menuSize);
+	height: 500px;
+	border-bottom-right-radius: var(--bigBordRad);
+	top: 100px;
+	float: left;
+	position: sticky;
 }
 
 main#main {
-    background-color: var(--primGrayCol);
-    width: calc(100% - var(--menuSize));
-    height: 1700px;
-    top: 0px;
-    float: left;
-    position: relative;
-    z-index: -1;
+	background-color: var(--primGrayCol);
+	width: calc(100% - var(--menuSize));
+	height: 1700px;
+	top: 0px;
+	float: left;
+	position: relative;
+	z-index: -1;
 }
 
 footer#foot {
 	display: flex;
-    background-color: var(--defTriCol);
-    width: 100%;
+	background-color: var(--defTriCol);
+	width: 100%;
 	height: 100px;
 	align-items: center;
 	justify-content: center;
-    position: static;
+	position: static;
 }
 
 span#credit {
