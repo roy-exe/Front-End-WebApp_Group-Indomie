@@ -11,5 +11,9 @@ Anggota:
 - 10_I Kadek Agus Merdika Yasa
 - 08_I Gede Rega Asa Darma
 - 07_I Gde Rai Khrisna Ary Wijaya
-<a href="https://www.instagram.com/agungwahyubrahamantha/">- 06_I Dewa Gede Agung Wahyu Brahmantha</a>
-<a href="https://www.instagram.com/_roy.exe/">- 04_El Roy Situmorang</a>
+<a href="https://www.instagram.com/agungwahyubrahamantha/">
+  - 06_I Dewa Gede Agung Wahyu Brahmantha
+</a>
+<a href="https://www.instagram.com/_roy.exe/">
+  - 04_El Roy Situmorang
+</a>
