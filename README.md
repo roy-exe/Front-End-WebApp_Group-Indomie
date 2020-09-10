@@ -13,5 +13,5 @@ Anggota:
 - 08_I Gede Rega Asa Darma
 - 07_I Gde Rai Khrisna Ary Wijaya
 - 06_I Dewa Gede Agung Wahyu Brahmantha
-- 04_El Roy Situmorang
+<a href="https://www.instagram.com/_roy.exe/?hl=en">- 04_El Roy Situmorang</a>
 ```
