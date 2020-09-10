@@ -6,7 +6,6 @@ Desain: Front End;
 Owner: Kelompok Indomie-XI RPL 1;
 
 Anggota:
-```
 - 24_Komang Rio Sanjaya
 - 19_I Wayan Andika Buana Putra
 - 10_I Kadek Agus Merdika Yasa
@@ -14,4 +13,3 @@ Anggota:
 - 07_I Gde Rai Khrisna Ary Wijaya
 - 06_I Dewa Gede Agung Wahyu Brahmantha
 <a href="https://www.instagram.com/_roy.exe/?hl=en">- 04_El Roy Situmorang</a>
-```
