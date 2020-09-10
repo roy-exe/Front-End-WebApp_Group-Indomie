@@ -14,7 +14,7 @@ Anggota:
 <a href="https://www.instagram.com/agungwahyubrahamantha/">
   - 06_I Dewa Gede Agung Wahyu Brahmantha
 </a>
-
+<br>
 <a href="https://www.instagram.com/_roy.exe/">
   - 04_El Roy Situmorang
 </a>
