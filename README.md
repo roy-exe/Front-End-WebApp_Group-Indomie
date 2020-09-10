@@ -7,30 +7,30 @@ Owner: Kelompok Indomie-XI RPL 1;
 
 Anggota:
 <a href="https://www.instagram.com/komangrio10_/">
-  - 24_Komang Rio Sanjaya
   
+  - 24_Komang Rio Sanjaya
 </a>
 <a href="https://www.instagram.com/wayan_dika20/">
-  - 19_I Wayan Andika Buana Putra
   
+  - 19_I Wayan Andika Buana Putra
 </a>
 <a href="https://www.instagram.com/agus_merdika/">
-  - 10_I Kadek Agus Merdika Yasa
   
+  - 10_I Kadek Agus Merdika Yasa
 </a>
 <a href="https://www.instagram.com/regaasadarma/">
-  - 08_I Gede Rega Asa Darma
   
+  - 08_I Gede Rega Asa Darma
 </a>
 <a href="https://www.instagram.com/raikrisnaa_07/">
-  - 07_I Gde Rai Khrisna Ary Wijaya
   
+  - 07_I Gde Rai Khrisna Ary Wijaya
 </a>
 <a href="https://www.instagram.com/agungwahyubrahamantha/">
-  - 06_I Dewa Gede Agung Wahyu Brahmantha
   
+  - 06_I Dewa Gede Agung Wahyu Brahmantha
 </a>
 <a href="https://www.instagram.com/_roy.exe/">
-  - 04_El Roy Situmorang
   
+  - 04_El Roy Situmorang
 </a>
