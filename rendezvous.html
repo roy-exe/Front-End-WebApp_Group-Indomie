@@ -6,6 +6,7 @@
     <title>index</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./Logo.ico" />
+    <link rel="stylesheet" href="cascades.css">
     <script type="text/javascript" src="./script.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
@@ -36,18 +37,21 @@
         <button id="sect"></button>
         <button id="sect"></button>
     </nav>
-    <div class="sidebaar">
-        <header>My App</header>
+    <!-- Sidebar -->
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas-fa-bars" id="btn"></i>
+        <i class="fas-fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <header>My app</header>
         <ul>
-            <li><a href="#"><i class="fas fa-qrcode"></i>Dasboard</a></li>
+           <li><a href="#"><i class="fas fa-qrcode"></i>Profile</a></li>
+           <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+           <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+           <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+           <li><a href="#"><i class="fas fa-question-circle"></i>About</a></li>
         </ul>
     </div>
-
-    <main id="main">
-
-    </main>
-    <footer id="foot">
-        <span id="credit">@_roy.exe</span>
-    </footer>
 </body>
 </html>
