@@ -1,5 +1,5 @@
-<h1 onclick="window.location.replace("https://github.com/roy-exe/Front-End-WebApp_Group-Indomie")">
-  #Front-End-WebApp_Group-Indomie
+<h1>
+  <a href="https://github.com/roy-exe/Front-End-WebApp_Group-Indomie">#Front-End-WebApp_Group-Indomie</a>
 </h1>
 
 Tema: Aplikasi Web Toko Online;
