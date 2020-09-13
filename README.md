@@ -1,4 +1,4 @@
-<h1 href="https://github.com/roy-exe/Front-End-WebApp_Group-Indomie">
+<h1 onclick="window.location.replace("https://github.com/roy-exe/Front-End-WebApp_Group-Indomie")">
   #Front-End-WebApp_Group-Indomie
 </h1>
 
