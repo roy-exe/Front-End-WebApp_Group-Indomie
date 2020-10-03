@@ -267,7 +267,7 @@ nav ul{
 }
 nav ul li{
         display: inline-block;
-        line-height: 120px;
+        line-height: 50px;
         margin: 0 50px;
         padding:0 50px;
 }
@@ -283,3 +283,13 @@ a:hover{
         transition: .5s;
         color:black;
 }
+nav div{
+        width: 35px;
+        height: 5px;
+        background-color: whitesmoke;
+        margin: 6px 0;
+        margin-bottom: 10px;
+        line-height: ;
+        
+        
+      }
