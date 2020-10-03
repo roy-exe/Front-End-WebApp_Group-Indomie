@@ -14,7 +14,9 @@
 
 // !Special f(x)
 {
-  
+  function verSize() {
+    
+  }
 }
 
 // Custom Local/Global Var, Let, and Const

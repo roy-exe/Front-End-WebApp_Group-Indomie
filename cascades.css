@@ -176,8 +176,8 @@ span#title{
 	font-family: San-Franc;
 	border-radius: 35px;
 	color: white;
-	width: 20%;
-	font-size: 38px;
+	width: 250px;
+	font-size: 32px;
 	height: 70px;
 	align-items: center;
 	line-height: 70px;
@@ -196,6 +196,7 @@ span#title img {
 /*#endregion*/
 
 /* NAVBAR */
+/*#region*/
 nav#horNav {
 	background-color: var(--defTriCol);
 	width: 100%;
@@ -205,7 +206,6 @@ nav#horNav {
 	float: left;
 	position: sticky;
 }
-
 button#menu {
 	padding: 0;
 	background-color: var(--defPrimCol);
@@ -217,25 +217,72 @@ button#menu {
 	position: relative;
 	float: left;
 }
-
 div#spaceTab {
 	background-color: var(--defTriCol);
-	width: 7.5%;
+	width: 5%;
 	height: var(--perfBoxSide);
 	border-radius: 0 0 var(--defBordRad) var(--defBordRad);
+	top: calc(100% - var(--menuSize));
 	position: relative;
 	float: left;
 }
+button#tab{
+	background-color: var(--pitchRed);
+	width: 15%;
+	padding: 0;
+	border: none;
+	font-family: San-Franc;
+	height: var(--perfBoxSide);
+	top: calc(100% - var(--menuSize));
+	position: relative;
+	float: left;
+	border-radius: var(--defBordRad) var(--defBordRad) 0 0;
+}
+div#decor{
+	top: calc(calc(100% - var(--menuSize)) - 20px);
+	background-color: var(--transCol);
+	height: 20px;
+	width: 87.5%;
+	position: relative;
+	float: left;
+	z-index: -1;
+}
+div#null{
+	background-color: var(--defTriCol);
+	height: 100%;
+	width: calc(var(--menuSize) + 2.5%);
+	position: relative;
+	float: left;
+}
+div#filter{
+	width: calc(100% - calc(var(--menuSize) + 2.5%));
+	height: 100%;
+	background-color: var(--pitchRed);
+	position: relative;
+	float: left;
+}
+/*#endregion*/
 
 /* SIDEBAR */
 nav#verNav {
-	background-color: var(--triGrayCol);
+	background-color: var(--defPrimCol);
 	width: var(--menuSize);
-	height: 500px;
+	height: 400px;
 	border-bottom-right-radius: var(--bigBordRad);
 	top: 100px;
 	float: left;
 	position: sticky;
+}
+button#sect {
+	background-color: var(--pitchRed);
+	width: 100%;
+	height: var(--menuSize);
+	border: none;
+	padding: 0;
+	border-
+	position: relative;
+	margin-top: 10px;
+	float: left;
 }
 
 /* MAIN */
